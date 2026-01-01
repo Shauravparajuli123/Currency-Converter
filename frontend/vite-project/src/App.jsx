@@ -67,8 +67,8 @@ function App() {
   return (
     <div>
       <section className="hero">
-        <h1>Global Currency Converter</h1>
-        <p>Your go-to solution for real-time currency conversions worldwide.</p>
+        <h1>Currency Converter</h1>
+        <p>Currency Converter made by Shaurav Parajuli</p>
       </section>
       <section className="converter">
         <form onSubmit={handleSubmit}>
@@ -121,8 +121,8 @@ function App() {
         {error && <p className="error">Error: {error}</p>}
       </section>
       <section className="additional-info">
-        <h2>Why Choose Global Currency Converter?</h2>
-        <p>Detailed explanations on advantages or instructions for use.</p>
+        <h2>Why Choose Currency Converter?</h2>
+        <p>Live Currency convert anytime,anywhere</p>
       </section>
     </div>
   );
